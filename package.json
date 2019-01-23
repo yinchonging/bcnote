@@ -1,0 +1,49 @@
+{
+  "name": "BCNote",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "antd-mobile-rn": "^2.3.0",
+    "async": "^2.6.1",
+    "await-to-js": "^2.0.1",
+    "eosjs": "^20.0.0-beta3",
+    "ethereumjs-abi": "^0.6.5",
+    "ethereumjs-tx": "^1.3.7",
+    "ethers": "^3.0.27",
+    "lodash": "^4.17.11",
+    "moment": "^2.22.2",
+    "node-libs-browser": "^2.1.0",
+    "node-polyglot": "^2.3.0",
+    "react": "16.4.1",
+    "react-native": "0.56.1",
+    "react-native-prompt-android": "^0.3.4",
+    "react-native-qrcode": "^0.2.7",
+    "react-native-randombytes": "^3.5.1",
+    "react-native-vector-icons": "^5.0.0",
+    "react-navigation": "^2.14.0",
+    "react-navigation-redux-helpers": "^2.0.5",
+    "react-redux": "^5.0.7",
+    "redux": "^4.0.0",
+    "redux-form": "^7.4.2",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.3.0",
+    "sjcl": "^1.0.7",
+    "web3": "1.0.0-beta.34"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-jest": "23.6.0",
+    "babel-plugin-import": "^1.10.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react-native": "^5",
+    "jest": "23.6.0",
+    "react-test-renderer": "16.4.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
