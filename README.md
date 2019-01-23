@@ -15,7 +15,7 @@ which provides encrypted note service with extremely high data security and reli
 * **If you are a blockchain user**
 1. You may have many wallet passwords.
 2. You may have various passwords of major digital currency exchanges.
-3, you may have a lot of private keys, Keystore, mnemonic.
+3. you may have a lot of private keys, Keystore, mnemonic.
 
 * **If you are not a blockchain user**
 1. You probably have a lot of stock exchange passwords.
