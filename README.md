@@ -1,4 +1,4 @@
-
+<img src="./src/images/e1.png" width="160"> <img src="./src/images/e2.png" width="160"> <img src="./src/images/e3.png" width="160"> <img src="./src/images/e4.png" width="160"> <img src="./src/images/e5.png" width="160">
 
 # BCNote is an encrypted note application developed based on blockchain technology
 which provides encrypted note service with extremely high data security and reliability with the characteristics of blockchain technology.
