@@ -42,10 +42,7 @@ export const k_language = 'LANGUAGE';
 //node
 export const eth_nodes = __DEV__ ? [
   'https://mainnet.infura.io/v3/499c78b667204cd2aecf4e6597a9624a',
-  'http://188.165.227.180:55555',
-  // 'http://94.23.17.170:55555',
-  // 'http://94.23.57.58:55555',
-  // 'http://192.168.17.13:8545'
+  'http://188.165.227.180:55555'
 ] : [
   'https://mainnet.infura.io/v3/499c78b667204cd2aecf4e6597a9624a'
 ];

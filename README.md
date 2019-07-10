@@ -53,6 +53,40 @@ which provides encrypted note service with extremely high data security and reli
 
 --------
 
+# How to build
+
+```
+git clone https://github.com/yinchonging/bcnote.git
+cd bcnote
+npm install -d
+```
+```
+# update: note_modules/randombytes/browser.js
+module.exports = oldBrowser
+# change to
+module.exports = randomBytes = require('react-native-randombytes').randomBytes
+```
+```
+# update: note_modules/base_x/index.js
+const BASE_MAP = new Uint8Array(256)
+# change to
+const BASE_MAP = require('react-native').Platform.OS === 'android' ? new Buffer(256) : new Uint8Array(256);
+BASE_MAP.fill(255)
+```
+```
+# update: note_modules/eosjs/dist/eosjs-numberic.js
+result.reverse();
+return result;
+# change to
+if (require('react-native').Platform.OS === 'android') {
+  return require('lodash').reverse(result)
+} else {
+  result.reverse();
+  return result;
+}
+```
+--------
+
 # Donate 捐赠
 **BTC:** 3JCqQHHKUeaHniMVFAVHw9vniwvdVviTrq
 
